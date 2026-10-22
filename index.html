@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -6,6 +7,16 @@
     </head>
     <body>
         <h1>REGISTRO DEI VOTI</h1>
-        <label type="number" id ="voto"></label>
+        <p> Dopo aver inserito il nome dell'alunno e il suo voto, verrà dato il giudizio e verrà aggiunto </p>
+        <p> l'alunno con il suo giudizio in una tabella.</p>
+        <br>
+        <label for="nome">Inserire il nome dell'alunno:</label>
+        <input type="string" id ="nome"></input>
+        <br>
+        <label for="voto">Inserire il voto dell'alunno da 1 a 10</label>
+        <input type="number" id ="voto"></input>
+        <br>
+        <button onclick ="bottone()">Registra</button>
+        <p id ="giudizio"></p>
     </body>
 </html>
